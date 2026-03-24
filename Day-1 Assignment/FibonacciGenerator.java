@@ -10,7 +10,7 @@ public class FibonacciGenerator {
         int first = 0, second = 1;
 
         System.out.println("Fibonacci sequence:");
-        for (int i = 1; i <= n; i++) {
+        for(int i = 1; i <= n; i++) {
             int next = first + second;
             first = second;
             second = next;

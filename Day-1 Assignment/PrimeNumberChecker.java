@@ -7,7 +7,7 @@ public class PrimeNumberChecker {
         System.out.print("Enter a positive integer: ");
         int number = sc.nextInt();
 
-        if (number < 2) {
+        if(number < 2) {
             System.out.println(number + " is not a prime number.");
             return;
         }
@@ -15,7 +15,7 @@ public class PrimeNumberChecker {
         boolean isPrime = true;
 
         for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
+            if(number % i == 0) {
                 isPrime = false;
                 break; 
             }

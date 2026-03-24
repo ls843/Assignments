@@ -5,7 +5,7 @@ public class Atm {
         Scanner scanner = new Scanner(System.in);
         double balance = 1000.0; 
 
-        while (true) {
+        while(true) {
             System.out.println("\n=== ATM Menu ===");
             System.out.println("1. Check Balance");
             System.out.println("2. Deposit");
@@ -15,7 +15,7 @@ public class Atm {
 
             int choice = scanner.nextInt();
 
-            switch (choice) {
+            switch(choice) {
                 case 1:
                     System.out.println("Your current balance is: $" + balance);
                     break;

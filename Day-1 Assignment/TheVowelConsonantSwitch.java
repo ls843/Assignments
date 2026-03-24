@@ -9,7 +9,7 @@ public class TheVowelConsonantSwitch {
 
         ch = Character.toLowerCase(ch); 
 
-        switch (ch) {
+        switch(ch) {
             case 'a':
             case 'e':
             case 'i':
@@ -19,7 +19,7 @@ public class TheVowelConsonantSwitch {
                 break;
 
             default:
-                if (Character.isLetter(ch)) {
+                if(Character.isLetter(ch)) {
                     System.out.println("It is a Consonant.");
                 } else {
                     System.out.println("Invalid input. Please enter an alphabet.");
